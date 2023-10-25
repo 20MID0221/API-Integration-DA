@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommendation App</title>
+    <link rel="stylesheet" href="book_rec.css">
+</head>
+<body>
+    <h1>Book Recommendation App</h1>
+    <form id="recommendation-form">
+        <input type="text" id="book-input" placeholder="Enter book title or author">
+        <select id="genre">
+            <option value="fiction">Fiction</option>
+            <option value="nonfiction">Non-fiction</option>
+            <option value="any">All</option>
+        </select>
+        <input type="text" name="lang" id="lang" placeholder="Language">
+        <button type="submit">Get Recommendations</button>
+    </form>
+    <h3 id="ch"></h3>
+    <div id="recommendation-result"></div>
+
+    <script src="book_rec.js"></script>
+</body>
+</html>
